@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(58, 58, 58);
+}
+.nav-link {
+    background-color: lightgrey;
+    color: black;
+    margin-right: 0.1rem;
+}
+nav {
+    background-color: darkgrey;
+    height: 3rem;
+    padding: 0.25rem;
+    box-sizing: border-box;
+}
+main {
+    background-color: white;
+    height: 40rem;
+}
