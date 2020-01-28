@@ -6,6 +6,10 @@ body {
     color: black;
     margin-right: 0.1rem;
 }
+.nav-link:hover {
+    color: black;
+    background-color: white;
+}
 nav {
     background-color: darkgrey;
     height: 3rem;
@@ -15,4 +19,15 @@ nav {
 main {
     background-color: white;
     height: 40rem;
+    padding-top: 1.5rem;
+}
+img {
+    margin-top: -1.5rem;
+}
+#age {
+    float: right;
+}
+#imageDiv {
+    float: right;
+    max-width: 200px;
 }
