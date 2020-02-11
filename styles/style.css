@@ -27,6 +27,14 @@ img {
 .subtext {
     float: right;
 }
+.subtextL {
+    float: left;
+}
+.imageDivL {
+    float: left;
+    margin-right: 2rem;
+    max-width: 200px;
+}
 .imageDivR {
     float: right;
     max-width: 200px;
@@ -37,4 +45,9 @@ img {
 }
 #section1 p {
     width: 50rem;
+}
+#section2 {
+    width: 100%;
+    margin-top: 8rem;
+    height: 200px;
 }
