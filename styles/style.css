@@ -24,14 +24,17 @@ main {
 img {
     margin-top: -1.5rem;
 }
-#age {
+.subtext {
     float: right;
 }
-#imageDiv {
+.imageDivR {
     float: right;
     max-width: 200px;
 }
 .rounded {
     max-width: 200px;
     min-width: 200px;
+}
+#section1 p {
+    width: 50rem;
 }
