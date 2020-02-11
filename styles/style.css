@@ -31,3 +31,7 @@ img {
     float: right;
     max-width: 200px;
 }
+.rounded {
+    max-width: 200px;
+    min-width: 200px;
+}
