@@ -51,3 +51,6 @@ img {
     margin-top: 8rem;
     height: 200px;
 }
+#text {
+    max-width: 55rem;
+}
