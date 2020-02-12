@@ -1,5 +1,6 @@
 body {
     background-color: rgb(58, 58, 58);
+    font-family: 'Roboto', sans-serif;
 }
 .nav-link {
     background-color: lightgrey;
@@ -11,6 +12,7 @@ body {
     background-color: white;
 }
 nav {
+    margin-top: 1rem;
     background-color: darkgrey;
     height: 3rem;
     padding: 0.25rem;
@@ -18,7 +20,7 @@ nav {
 }
 main {
     background-color: white;
-    height: 40rem;
+    height: 45rem;
     padding-top: 1.5rem;
 }
 img {
@@ -46,6 +48,9 @@ img {
 #section1 p {
     width: 50rem;
 }
+#section3 p {
+    width: 50rem;
+}
 #section2 {
     width: 100%;
     margin-top: 8rem;
@@ -53,4 +58,10 @@ img {
 }
 #text {
     max-width: 55rem;
+}
+#footer {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: right;
+    padding-right: 3rem;
 }
