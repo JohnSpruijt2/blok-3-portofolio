@@ -20,11 +20,11 @@ nav {
 }
 main {
     background-color: white;
-    height: 45rem;
     padding-top: 1.5rem;
 }
 img {
     margin-top: -1.5rem;
+    box-sizing: border-box;
 }
 .subtext {
     float: right;
@@ -35,15 +35,17 @@ img {
 .imageDivL {
     float: left;
     margin-right: 2rem;
-    max-width: 200px;
+    max-width: 12.5rem;
+    max-height: 12.5rem;
 }
 .imageDivR {
     float: right;
-    max-width: 200px;
+    max-width: 12.5rem;
+    max-height: 12.5rem;
 }
 .rounded {
-    max-width: 200px;
-    min-width: 200px;
+    max-width: 12.5rem;
+    max-height: 12.5rem;
 }
 #section1 p {
     width: 50rem;
@@ -54,7 +56,7 @@ img {
 #section2 {
     width: 100%;
     margin-top: 8rem;
-    height: 200px;
+    height: 12.5rem;
 }
 #text {
     max-width: 55rem;
@@ -64,4 +66,19 @@ img {
     color: white;
     text-align: right;
     padding-right: 3rem;
+}
+#language1 {
+    width: 100%;
+    margin-top: 1rem;
+    height: 11rem;
+    font-size: 1.3rem;
+}
+#language2, #language3, #language4 {
+    width: 100%;
+    margin-top: 3rem;
+    height: 11rem;
+    font-size: 1.3rem;
+}
+#language3 img {
+    margin-top: 1rem;
 }
