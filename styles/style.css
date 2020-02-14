@@ -89,6 +89,41 @@ img {
 #main {
     height: 30rem;
 }
+#mobileWhiteSpace {
+    display: none;
+}
 @media (max-width: 1000px) {
-
+    #main {
+        height: 40rem;
+    }
+    .nav-link {
+        margin-right: 0.2rem;
+        font-size: 1rem;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+    }
+    nav {
+        padding: 0;
+    }
+    #me {
+        max-width: 8rem;
+    }
+    #meTxt {
+        display: none;
+    }
+    #title {
+        font-size: 1.9rem;
+    }
+    #mobileWhiteSpace {
+        display: inline-block;
+    }
+    .rounded {
+        max-width: 10rem;
+        max-height: 10rem;
+        float: right;
+    }
+    .imageDivR .subText {
+        float: right;
+        font-size: 0.8rem;
+    }
 }

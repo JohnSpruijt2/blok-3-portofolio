@@ -1,4 +1,4 @@
-//John Spruijt ©2020
+//John Spruijt ©2020 
 var d = new Date();
 var year = d.getFullYear()-1;
 var month = d.getMonth();
