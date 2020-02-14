@@ -1,13 +1,14 @@
-var year = date(year);
-var month = date(month);
-var day = date(day);
-var age = year - 2002;
-if (month == 11) {
+var d = new Date();
+var year = d.getFullYear()-1;
+var month = d.getMonth();
+var day = d.getDate();
+var age = year-2002;
+if (month == 10) {
     if (day >= 28) {
         age++
     }
 }
-else if (month > 11) {
+else if (month > 10) {
     age++
 }
 document.getElementById("insertAge").innerHTML = age;
