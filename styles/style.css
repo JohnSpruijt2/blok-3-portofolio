@@ -89,12 +89,17 @@ img {
 #main {
     height: 30rem;
 }
-#mobileWhiteSpace {
+.mobileWhiteSpace {
     display: none;
 }
 @media (max-width: 1000px) {
     #main {
-        height: 40rem;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    main {
+        height: auto;
+        padding-bottom: 2rem;
     }
     .nav-link {
         margin-right: 0.2rem;
@@ -114,7 +119,7 @@ img {
     #title {
         font-size: 1.9rem;
     }
-    #mobileWhiteSpace {
+    .mobileWhiteSpace {
         display: inline-block;
     }
     .rounded {
@@ -124,6 +129,50 @@ img {
     }
     .imageDivR .subText {
         float: right;
-        font-size: 0.8rem;
+        font-size: 1rem;
+    }
+    .imageDivL .subText {
+        float: right;
+        font-size: 1rem;
+    }
+    p {
+        max-width: 100%;
+    }
+    #introTxt {
+        margin: 0;
+    }
+    #section1 h1 {
+        font-size: 2.5rem;
+    }
+    #section2 h1 {
+        font-size: 2rem;
+    }
+    .imageDivR {
+        float: right;
+        max-width: 10rem;
+        max-height: 10rem;
+    }
+    .imageDivL {
+        float: left;
+        max-width: 10rem;
+        max-height: 10rem;
+        margin-right: 0.5rem;
+    }
+    #section2, #section3 {
+        height: auto;
+        margin-top: 3rem;
+    }
+    #section3 p {
+        margin: 0;
+    }
+    #section3 h1 {
+        font-size: 1.9rem;
+    }
+    #language1,#language2, #language3, #language4 {
+        height: auto;
+    }
+    #language1 img,#language2 img, #language3 img, #language4 img {
+        max-width: 8rem;
+        max-height: 8rem;
     }
 }
