@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(58, 58, 58);
     font-family: 'Roboto', sans-serif;
@@ -21,6 +24,7 @@ nav {
 main {
     background-color: white;
     padding-top: 1.5rem;
+    box-sizing: border-box;
 }
 img {
     margin-top: -1.5rem;
@@ -53,6 +57,9 @@ img {
 #section3 p {
     width: 50rem;
 }
+#section3 {
+    height: 12.5rem;
+}
 #section2 {
     width: 100%;
     margin-top: 8rem;
@@ -81,4 +88,7 @@ img {
 }
 #language3 img {
     margin-top: 1rem;
+}
+#main {
+    height: 30rem;
 }
